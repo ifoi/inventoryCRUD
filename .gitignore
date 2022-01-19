@@ -1,0 +1,8 @@
+#env
+.env
+config.env
+
+#config.js
+config.js
+
+node_modules/
