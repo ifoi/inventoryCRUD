@@ -9,9 +9,7 @@ console.log("mongo uri: " + MONGO_URI) ;
 const connectDB = async() =>{
    try{
        const connect = await mongoose.connect(MONGO_URI ,{
-           useFindAndModify: false,
-           useNewUrlParse: true,
-           useCreateIndex: true,
+          useNewUrlParser: true,
            useUnifiedTopology: true
        })
 
