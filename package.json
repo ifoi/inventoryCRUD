@@ -1,0 +1,29 @@
+{
+  "name": "inventorycrud",
+  "version": "1.0.0",
+  "description": "basic inventory crup app with express and mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "keywords": [
+    "crud",
+    "mongodb"
+  ],
+  "author": "Ifo Ikede",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.1.7",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
